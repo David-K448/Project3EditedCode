@@ -1,0 +1,11 @@
+-- conditional expressions / variable initialization
+function main returns real;
+    a: integer is 10;
+    b: integer is 20;
+begin
+    if b * 2 >= 18 then
+        a + 5;
+    else
+        a ** 2;
+    endif;
+end;

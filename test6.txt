@@ -1,0 +1,13 @@
+-- Function testing Reduction
+
+function main returns integer;
+begin
+    reduce *
+        reduce +
+            5 * 8;
+            2;
+        endreduce; 
+        10;
+        2;
+    endreduce;    
+end;

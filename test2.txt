@@ -1,4 +1,6 @@
+// Arithmetic operators
+
 function main returns integer;
 begin
-    9 + 2 - (5 - 1) / 2 rem 3 * 3 ** 1 ** 2;
+    7 + 3 - (5 - 3) / 2 rem 3 * 3 ** 1 ** 2;
 end;

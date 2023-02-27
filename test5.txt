@@ -1,0 +1,17 @@
+-- parameter initialization / test the case statement
+
+function main a: integer, b: integer returns integer;
+    c: integer is
+        if a <= b then
+            a ** b;
+        else
+            a ** 3;
+        endif;
+begin
+    case a is
+        when 5 => c;
+        when 10 => (a * b / 2);
+        others => 0;
+    endcase;
+end;
+

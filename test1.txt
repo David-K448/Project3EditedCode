@@ -1,3 +1,5 @@
+// tests arithmetic operators, conditional expressions, case selection, 
+
 function main a: integer, b: integer returns integer;
     c: integer is
         if a > b then

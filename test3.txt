@@ -1,6 +1,7 @@
-// case 
+-- Relational and logical operators / arithmetic operators
 
-function main returns integer;
-    a: integer is 4 + 2;
+function main returns boolean;
+    r: real is 10;
 begin
-    case a is
+    5 + r > 8 and 12 / 3 = 4 or 14 * 1 < 10;
+end;
